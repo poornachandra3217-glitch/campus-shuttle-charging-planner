@@ -42,3 +42,7 @@ The program prints each algorithm’s stop count, station locations, leg lengths
 - [Sample inputs](examples/)
 - [Project report and algorithm proofs](REPORT.md)
 - [Presentation walkthrough and viva questions](VIVA.md)
+
+## ChargeRoute web application
+
+Run `python -m pip install -r requirements.txt` and `python app.py`, then open http://127.0.0.1:5000/. The dashboard calls the original four Python solvers through POST /api/plan using the same JSON input described above. Run `python -m unittest -v` for algorithm and web API tests. The web application is an academic simulation, not a live EV charging controller.

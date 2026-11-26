@@ -1,18 +1,18 @@
-# Wildlife Reserve Electric Shuttle Charging Planner
+# Campus Shuttle Charging Planner
 
 **Poorna Chandra · 250200322 · Design and Analysis of Algorithms**
 
-A visitor shuttle travels along a fixed one-way route. The planner finds a minimum-stop charging plan and compares four algorithms on identical input. The example routes are synthetic.
+A campus shuttle travels along a fixed one-way route. The planner finds a minimum-stop charging plan and compares four algorithms on identical input. The example routes are synthetic.
 
 ## Run on Windows or macOS/Linux
 
 Install Python 3.10 or newer. No packages or database are required. Open PowerShell or a terminal in the project folder and run:
 
 ```text
-python planner.py examples/reserve_route.json
+python planner.py examples/campus_route.json
 python planner.py examples/unreachable.json
 python planner.py examples/direct.json
-python planner.py examples/reserve_route.json --method greedy
+python planner.py examples/campus_route.json --method greedy
 python -m unittest -v
 ```
 
@@ -32,7 +32,7 @@ The program prints each algorithm’s stop count, station locations, leg lengths
 
 | Case | Expected result from each method |
 |---|---|
-| Reserve route | 2 stops at km 8 and 17. Leg distances 8, 9 and 8 km |
+| Campus route | 2 stops at km 8 and 17. Leg distances 8, 9 and 8 km |
 | Unreachable | Unreachable because the gap from km 8 to km 20 exceeds 10 km |
 | Direct | 0 stops because the destination is exactly one full charge away |
 

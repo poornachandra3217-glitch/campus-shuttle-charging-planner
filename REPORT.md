@@ -1,11 +1,11 @@
-# Wildlife Reserve Electric Shuttle Charging Planner
+# Campus Shuttle Charging Planner
 
 Poorna Chandra · 250200322  
 Design and Analysis of Algorithms
 
 ## Abstract
 
-A reserve shuttle has a fixed range and can recharge at selected stations along a one-way route. This project finds the fewest charging stops and reconstructs the corresponding route. It compares subset enumeration, dynamic programming, greedy farthest-stop selection, and a divide-and-conquer construction that composes blocks of travel legs. The program checks feasibility, validates input and reports the result for each algorithm.
+A campus shuttle has a fixed range and can recharge at selected stations along a one-way route. This project finds the fewest charging stops and reconstructs the corresponding route. It compares subset enumeration, dynamic programming, greedy farthest-stop selection, and a divide-and-conquer construction that composes blocks of travel legs. The program checks feasibility, validates input and reports the result for each algorithm.
 
 ## Problem formulation
 

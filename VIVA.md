@@ -2,10 +2,10 @@
 
 ## Five-minute presentation
 
-1. **Problem.** “My project plans an electric visitor shuttle route through a wildlife reserve. The shuttle starts fully charged. Each chosen stop restores full battery range. The goal is to minimize the number of charging stops.”
+1. **Problem.** “My project plans an electric shuttle route through a university campus. The shuttle starts fully charged. Each chosen stop restores full battery range. The goal is to minimize the number of charging stops.”
 2. **Inputs.** Show the 25 km route, range of 10 km, and stations at km 4, 8, 12 and 17. Separate the number of legs from the number of charging stops.
 3. **Four methods.** Brute force enumerates subsets. DP remembers the best predecessor. Greedy goes to the farthest reachable point. Divide and conquer builds bigger travel blocks by composing two half blocks.
-4. **Run the demo.** Run `python planner.py examples/reserve_route.json`. Point out stops at km 8 and 17 and leg distances of 8, 9 and 8 km.
+4. **Run the demo.** Run `python planner.py examples/campus_route.json`. Point out stops at km 8 and 17 and leg distances of 8, 9 and 8 km.
 5. **Prove the result.** One stop would supply only two charges, for at most 20 km. Show `examples/unreachable.json` to demonstrate the range check.
 
 ## Individual viva questions

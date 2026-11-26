@@ -55,7 +55,7 @@ class PlannerTests(unittest.TestCase):
     def test_cli(self):
         folder = Path(__file__).resolve().parent
         command = [sys.executable, str(folder / "planner.py")]
-        result = subprocess.run(command + [str(folder / "examples/reserve_route.json")],
+        result = subprocess.run(command + [str(folder / "examples/campus_route.json")],
                                 capture_output=True, text=True, check=True)
         self.assertEqual(result.stdout.count("2 stops"), 4)
         missing = subprocess.run(command + [str(folder / "missing.json")],

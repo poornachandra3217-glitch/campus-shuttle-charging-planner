@@ -1,6 +1,6 @@
 # Campus Shuttle Charging Planner
 
-Poorna Chandra · 250200322  
+Poorna Chandra and Ramya Sree  
 Design and Analysis of Algorithms
 
 ## Abstract

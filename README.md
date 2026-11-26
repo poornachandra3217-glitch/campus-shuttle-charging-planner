@@ -1,6 +1,6 @@
 # Campus Shuttle Charging Planner
 
-**Poorna Chandra · 250200322 · Design and Analysis of Algorithms**
+**Poorna Chandra and Ramya Sree · Design and Analysis of Algorithms**
 
 A campus shuttle travels along a fixed one-way route. The planner finds a minimum-stop charging plan and compares four algorithms on identical input. The example routes are synthetic.
 
